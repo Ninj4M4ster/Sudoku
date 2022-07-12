@@ -8,100 +8,22 @@
 <?import sudoku.main.Tile?>
 <?import javafx.geometry.Insets?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml" fx:controller="sudoku.main.GameBoardController">
-   <GridPane>
-      <GridPane GridPane.columnIndex="0" GridPane.rowIndex="0">
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="1" text="0 1"/>
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      </GridPane>
-      <GridPane GridPane.columnIndex="0" GridPane.rowIndex="1">
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      </GridPane>
-      <GridPane GridPane.columnIndex="0" GridPane.rowIndex="2">
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      </GridPane>
-      <GridPane GridPane.columnIndex="1" GridPane.rowIndex="0">
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      </GridPane>
-      <GridPane GridPane.columnIndex="1" GridPane.rowIndex="1">
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      </GridPane>
-      <GridPane GridPane.columnIndex="1" GridPane.rowIndex="2">
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      </GridPane>
-      <GridPane GridPane.columnIndex="2" GridPane.rowIndex="0">
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      </GridPane>
-      <GridPane GridPane.columnIndex="2" GridPane.rowIndex="1">
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      </GridPane>
-      <GridPane GridPane.columnIndex="2" GridPane.rowIndex="2">
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="1" GridPane.rowIndex="2"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="0"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="1"/>
-         <Tile GridPane.columnIndex="2" GridPane.rowIndex="2"/>
-      </GridPane>
-   </GridPane>
-   <HBox>
-
-   </HBox>
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml" fx:id="root" fx:controller="sudoku.main.GameBoardController">
+   <children>
+      <HBox fx:id="options_container"></HBox>
+      <HBox fx:id="game_status_layout"></HBox>
+      <GridPane fx:id="game_board_layout" alignment="CENTER" hgap="-5" vgap="-5"></GridPane>
+      <HBox fx:id="game_buttons_layout" alignment="CENTER"></HBox>
+      <HBox fx:id="number_buttons_layout" alignment="CENTER">
+         <Label>1</Label>
+         <Label>2</Label>
+         <Label>3</Label>
+         <Label>4</Label>
+         <Label>5</Label>
+         <Label>6</Label>
+         <Label>7</Label>
+         <Label>8</Label>
+         <Label>9</Label>
+      </HBox>
+   </children>
 </VBox>

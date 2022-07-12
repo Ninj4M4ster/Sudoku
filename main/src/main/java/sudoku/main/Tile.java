@@ -5,7 +5,7 @@ import javafx.scene.control.*;
 import javafx.scene.shape.Rectangle;
 
 public class Tile extends Label {
-    public Tile(@NamedArg("text") String text) {
-        this.setText(text);
+    public Tile(String text) {
+        super(text);
     }
 }

@@ -17,8 +17,9 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        scene = new Scene(loadFXML("game_board"), 640, 480);
+        scene = new Scene(loadFXML("menu"), 640, 480);
         stage.setScene(scene);
+        stage.setTitle("Sudoku");
         stage.show();
     }
 
